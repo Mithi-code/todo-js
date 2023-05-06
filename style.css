@@ -29,6 +29,7 @@ form button {
   font-size: 2rem;
   border: none;
   background: #fff;
+  outline: none;
 }
 
 form button {
@@ -101,3 +102,4 @@ form button:hover {
     transform: translateY(8rem) rotate(20deg);
     opacity: 0;
 }
+

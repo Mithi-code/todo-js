@@ -30,7 +30,7 @@ function addTodo(e) {
   todoDiv.appendChild(trashButton);
   // append to list
   todoList.appendChild(todoDiv);
-  // input field
+  // input field clear
   todoInput.value = "";
 }
 
@@ -51,3 +51,5 @@ function checkDelete(e) {
     todo.classList.toggle("completed");
   }
 }
+
+// saving data local storage
